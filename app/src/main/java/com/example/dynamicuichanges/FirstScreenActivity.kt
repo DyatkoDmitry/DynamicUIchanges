@@ -36,7 +36,6 @@ class FirstScreenActivity : AppCompatActivity() {
                 setDuration(1000)
                 setInterpolator(AccelerateDecelerateInterpolator())
             }.start()
-
         }
 
         binding.show.setOnClickListener {
@@ -46,7 +45,6 @@ class FirstScreenActivity : AppCompatActivity() {
                 setDuration(1000)
                 setInterpolator(AccelerateDecelerateInterpolator())
             }.start()
-
         }
     }
 }
