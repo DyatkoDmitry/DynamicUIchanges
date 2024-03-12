@@ -16,5 +16,9 @@ class MainActivity : AppCompatActivity() {
         binding.firstScreen.setOnClickListener {
            startActivity(Intent(this, FirstScreenActivity::class.java))
         }
+
+        binding.secondScreen.setOnClickListener {
+            startActivity(Intent(this, SecondScreenActivity::class.java))
+        }
     }
 }
