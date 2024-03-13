@@ -25,13 +25,13 @@ class SecondScreenActivity : AppCompatActivity() {
     private fun setScreensImages(){
 
         Glide.with(this)
-            .load(AppConstants.url)
+            .load(AppConstants.URL)
             .centerCrop()
             .into(binding.SecondScreenImage1)
 
 
         Glide.with(this)
-            .load(AppConstants.url)
+            .load(AppConstants.URL)
             .centerCrop()
             .into(binding.SecondScreenImage2)
     }

@@ -13,12 +13,20 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        setButtonsListeners()
+    }
+
+    private fun setButtonsListeners(){
         binding.firstScreen.setOnClickListener {
-           startActivity(Intent(this, FirstScreenActivity::class.java))
+            startActivity(Intent(this, FirstScreenActivity::class.java))
         }
 
         binding.secondScreen.setOnClickListener {
             startActivity(Intent(this, SecondScreenActivity::class.java))
+        }
+
+        binding.thirdScreen.setOnClickListener {
+            startActivity(Intent(this, ThirdScreenActivity::class.java))
         }
     }
 }

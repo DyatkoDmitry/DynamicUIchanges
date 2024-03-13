@@ -16,6 +16,9 @@
         android:theme="@style/Theme.DynamicUIChanges"
         tools:targetApi="31">
         <activity
+            android:name=".ThirdScreenActivity"
+            android:exported="false" />
+        <activity
             android:name=".SecondScreenActivity"
             android:exported="false" />
         <activity

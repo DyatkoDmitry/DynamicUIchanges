@@ -23,7 +23,7 @@ class FirstScreenActivity : AppCompatActivity() {
 
     private fun setFirstScreenImage(){
         Glide.with(this)
-            .load(AppConstants.url)
+            .load(AppConstants.URL)
             .centerCrop()
             .into(binding.FirstScreenImage)
     }
